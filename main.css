@@ -1,0 +1,12 @@
+/* 
+tag based selection => "body" tag plus changes/rules in {}
+*/
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+
+.footer_copy{
+    padding-top: 10px;
+}
