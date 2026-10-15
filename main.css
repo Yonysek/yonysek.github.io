@@ -5,6 +5,22 @@ tag based selection => "body" tag plus changes/rules in {}
 body{
     background-color: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.yony_walk{
+    height: 500px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+p{
+    margin-top: 5px;
+}
+a{
+    color: inherit;
 }
 
 .footer_copy{
