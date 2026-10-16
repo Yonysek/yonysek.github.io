@@ -19,10 +19,38 @@ body{
 p{
     margin-top: 5px;
 }
+
 a{
     color: inherit;
 }
 
+table, th, td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* 
+tr => table row
+:hover => when you hover the cursor on it
+*/
+
+tr:hover{
+    background-color: rgb(81, 30, 110);
+}
+
+th{
+    background-color: rgb(60, 0, 116);
+}
+
+th, td{
+    padding: 5px;
+}
+
 .footer_copy{
-    padding-top: 20px;
+    padding-top: 40px;
 }
